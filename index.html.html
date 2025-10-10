@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Carolina Andrade</title>
+  <title>Sarah Hadassa</title>
   <style>
     body {
       margin: 0;
@@ -46,19 +46,23 @@
       if(!f._fbq)f._fbq=n;
       n.push=n;
       n.loaded=!0;n.version='2.0';
-      n.queue=[];t=b.createElement(e);t.async=!0;
+      n.queue=[];
+      t=b.createElement(e);t.async=!0;
       t.src=v;s=b.getElementsByTagName(e)[0];
       s.parentNode.insertBefore(t,s)
-    }(window, document,'script',
-      'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '1673968253270388'); // substitua SEU_PIXEL_ID pelo seu ID real
+    }(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+    fbq('init', '1673968253270388'); // Seu Pixel ID
+    fbq('track', 'PageView');
     fbq('track', 'Purchase', {value: 10.00, currency: 'BRL'});
   </script>
+
   <noscript>
     <img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=SEU_PIXEL_ID&ev=PageView&noscript=1"/>
+      src="https://www.facebook.com/tr?id=1673968253270388&ev=Purchase&noscript=1"/>
   </noscript>
 
+  <!-- Redirecionamento automático -->
   <script>
     setTimeout(() => {
       window.location.href = "https://drive.google.com/drive/folders/11i05EuDTo5K0SP0cl8Y-0rH2ctMsXgRY";
@@ -71,6 +75,7 @@
   <p>Liberando agora os meus conteúdos para você amor...</p>
 </body>
 </html>
+
 
 
 
